@@ -59,6 +59,11 @@ width: 300px; */
 
 
 }
+
+.main {
+  margin-left: -10%;
+}
+
 .margin-right{
   text-align:center;
 
@@ -446,6 +451,10 @@ width: 300px; */
     .left-side{
       margin-left: -100px;
       
-    }  
+    } 
+    
+    /* .main {
+      margin-left: -50%;
+    } */
     
    }
