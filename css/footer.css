@@ -22,21 +22,25 @@
   
   .para-contact{
     margin-bottom:15px;
+    margin-left:-30px;
   }
   .para-foot{
     color:white;
-    margin-left:30px;
+    margin-left:-3px;
     margin-top:-30px;
     margin-bottom:10px;
     text-decoration:none;
   }
   .para-foot1{
     color:white;
-    margin-left:5px;
+    margin-left:-5;
     margin-top:-30px;
     margin-bottom:10px;
     text-decoration:none;
 
+  }
+  .image-contact{
+    margin-left:-30px;
   }
   .no-under-line{
     text-decoration:none;
@@ -46,4 +50,5 @@
   }
   .quick{
     margin-bottom:7px;
+    margin-left:-30px;
   }
