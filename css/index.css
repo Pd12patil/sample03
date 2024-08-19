@@ -48,7 +48,7 @@ body{
   /* flex-direction:row; */
   flex-wrap: wrap;
  justify-content:center;
- align-items:center;
+ /* align-items:center; */
 }
 
 .left-side{
@@ -443,9 +443,9 @@ width: 300px; */
    */
 
    @media screen and (max-width: 500px) {
-    .margin-right{
+    .left-side{
+      margin-left: -100px;
       
-    
-    }
+    }  
     
    }
