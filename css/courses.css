@@ -1,0 +1,214 @@
+
+  .btn2{
+    height: 40px;
+    width: 300px;
+    background-color: #fffffe;
+    color: #0f0e17;
+    margin-left: 40px;
+    cursor: pointer;
+    border: 2px  #0f0e17 solid;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 20px;
+    margin: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.btn2:hover{
+  background-color: #0078D7;
+  color:white;
+  box-shadow: 1px 1px 5px 1px #0078D7;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+
+.how{
+  background-color: #3B3F54;
+  color:white;
+  text-decoration: none;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  padding: 10px 20PX;
+  border-radius: 12px; 
+  border: 2px solid  #3B3F54; 
+  
+}
+ 
+
+/* .btn2:hover {
+  background-color: #3B3F54;
+    color:white;
+    transition: 0.5s;
+} */
+
+
+
+h1{
+    color: #0f0e17;
+    text-align: center;
+}
+
+.course-container{
+  display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* display: inline-block; */
+    /* margin: 20px 40px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.course-card{
+  display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+/* display: inline-block; */
+height: 530px;
+/* width: 280px; */
+width: 350px;
+padding: 0px;
+/* background-color:#e6e6e6; */
+/* background-image: linear-gradient(to right, rgb(209, 213, 240), rgb(208, 229, 236)); */
+/* background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240)); */
+  background-color:white;  
+box-shadow: 0px 0px 7px 0px #0f0e17;
+/* border: 5px white solid; */
+border: 5px solid rgb(234, 234, 236);
+border-radius: 20px;
+margin:20px 40px;
+justify-content: center;
+}
+
+.img{
+display: block;
+/* height: 200px; */
+height: 220px;
+/* width: 270PX; */
+width: 340px;
+margin: 0px auto;
+border-radius: 20px 20px 0px 0px;
+}
+
+.p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: -10px;
+    font-weight: bold;
+    padding: 0px;
+    padding-top: 20px;
+}
+
+.p1{
+    color:black;
+    margin-left: 10px;
+}
+
+.p2{
+    color: black;
+    padding: 0px;   
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;   
+    
+}
+
+
+
+.icon{
+  height: 20px;
+  width: 20px;
+  margin-top: 10x;
+ 
+}
+.icon1{
+  height: 20px;
+  width: 20px;
+  margin-top: 10x;
+  margin-left: 20px; 
+  display: flex; 
+}
+
+.btn1{
+    height: 40px;
+    width: 110px;
+    /* background-color: #fffffe; */
+    background-color: #0078D7;
+    /* background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220)); */
+    /* background-image: linear-gradient(to right, rgb(121, 135, 215), rgb(120, 181, 201)); */
+    
+    /* color: white; */
+    /* color: #0f0e17; */
+    color: white;
+    /* margin-left: 5px; */
+    cursor: pointer;
+    /* border: 1px #0f0e17 solid; */
+    border: 1px solid #3B3F54;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.btn1:hover{
+  background-color: #0078D7;
+  color:white;
+  box-shadow: 1px 1px 5px 1px #0078D7;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn{
+    height: 40px;
+    width: 110px;
+    /* background-color: #fffffe; */
+    background-color: orange;
+    /* color: #0f0e17; */
+    /* color: #fff; */
+    color: black;
+    font-weight: bold;
+    /* margin-right: 10px auto; */
+    /* margin: 0 2%; */
+    cursor: pointer;
+    /* border: 1px #0f0e17 solid; */
+    border: 1px solid orange;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;  
+}
+
+.btn:hover{
+  background-color: orange;
+  color:white;
+  box-shadow: 1px 1px 5px 1px orange;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+ .btnn {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+ }
+
+ .b {
+  margin: 10px 2%;
+ }
+
+.para{
+    margin-top: 15px;
+}
+
+
+
+
