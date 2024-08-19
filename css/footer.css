@@ -13,7 +13,7 @@
     margin-top:40px;
   }
   .img-address{
-    margin-left:100px;
+    margin-left:80px;
     margin-bottom:30px;
   }
   .contact-info{
@@ -29,6 +29,14 @@
     margin-top:-30px;
     margin-bottom:10px;
     text-decoration:none;
+  }
+  .para-foot1{
+    color:white;
+    margin-left:5px;
+    margin-top:-30px;
+    margin-bottom:10px;
+    text-decoration:none;
+
   }
   .no-under-line{
     text-decoration:none;
