@@ -395,3 +395,10 @@ margin-left:80px;
 .quick{
   margin-bottom:7px;
 }*/
+
+@media(min-width:1020px)and(max-width:1439px){
+  .position{
+    width:100%;
+    height:90px;
+  }
+}

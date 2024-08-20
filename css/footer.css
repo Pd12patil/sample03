@@ -6,28 +6,30 @@
     justify-content:space-around;
     font-family:'Times New Roman', Times, serif;
      /*font-weight:bold;*/
-    font-size:20px;
+    font-size:16px;
   }
   .Address{
-    margin-left:10px;
-    margin-top:40px;
+    margin-left:1px;
+    margin-top:35px;
   }
   .img-address{
-    margin-left:80px;
-    margin-bottom:30px;
+    margin-left:40px;
+    margin-bottom:35px;
   }
   .contact-info{
    margin:30px;
+  
   }
   
   .para-contact{
+    font-size:30px;
     margin-bottom:15px;
-    margin-left:-30px;
+    margin-left:-75px;
   }
   .para-foot{
     color:white;
-    margin-left:-3px;
-    margin-top:-30px;
+    margin-left:-40px;
+    margin-top:-26px;
     margin-bottom:10px;
     text-decoration:none;
   }
@@ -40,7 +42,9 @@
 
   }
   .image-contact{
-    margin-left:-30px;
+    margin-left:-80px;
+    margin-top:5px;
+
   }
   .no-under-line{
     text-decoration:none;
@@ -50,5 +54,5 @@
   }
   .quick{
     margin-bottom:7px;
-    margin-left:-30px;
+    margin-left:-70px;
   }
