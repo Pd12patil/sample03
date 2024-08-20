@@ -1,12 +1,12 @@
-.footer{
+/*.footer{
     background-color: /*#3B3F54*/#333333;
-    color:white;
+  /*  color:white;
     display:flex;
     flex-direction:row;
     justify-content:space-around;
     font-family:'Times New Roman', Times, serif;
      /*font-weight:bold;*/
-    font-size:16px;
+   /* font-size:16px;
   }
   .Address{
     margin-left:1px;
@@ -56,3 +56,70 @@
     margin-bottom:7px;
     margin-left:-70px;
   }
+ */
+
+.footer {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Changed from row to column */
+  justify-content: center;
+  align-items: center; /* Added to center content */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  padding: 20px; /* Added padding */
+}
+
+.Address {
+  margin-top: 20px; /* Reduced margin */
+}
+
+.img-address {
+  margin-bottom: 20px; /* Reduced margin */
+}
+
+.contact-info {
+  margin: 20px; /* Reduced margin */
+}
+
+.para-contact {
+  font-size: 20px; /* Reduced font size */
+  margin-bottom: 10px;
+  margin-left: 0; /* Removed negative margin */
+}
+
+.para-foot {
+  margin-top: 10px; /* Reduced margin */
+  margin-bottom: 10px;
+  margin-left: 0; /* Removed negative margin */
+}
+
+.para-foot1 {
+  margin-top: 10px; /* Reduced margin */
+  margin-bottom: 10px;
+  margin-left: 0; /* Removed negative margin */
+}
+
+.image-contact {
+  margin-top: 10px; /* Reduced margin */
+  margin-left: 0; /* Removed negative margin */
+}
+
+.quick {
+  margin-bottom: 10px;
+  margin-left: 0; /* Removed negative margin */
+}
+
+/* Added media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .Address, .contact-info, .para-contact, .para-foot, .para-foot1, .image-contact, .quick {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .img-address {
+    margin-bottom: 10px;
+  }
+}
