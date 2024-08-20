@@ -1,8 +1,8 @@
 .footer{
     background-color: /*#3B3F54*/#333333;
-   /* color:white;
+   color:white;
     display:flex;
-   flex-direction:column;
+   flex-direction:row;
     justify-content:space-around;
     font-family:'Times New Roman', Times, serif;
      /*font-weight:bold;
@@ -44,8 +44,17 @@
    .footer {
       display: flex !important;
       flex-direction: column !important;
-      align-items: start !important;
+      /*align-items: start !important;*/
+      justify-content:space-evenly;
     }
-  } 
+    .para-contact{
+      margin:30px !important;
+     }
+    
+    }
+   
+  
+  
+   
     
   
