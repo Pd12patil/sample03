@@ -13,9 +13,13 @@
     margin-top:40px;
   }
   .img-address{
-    margin-left:100px;
+    margin-left:50px;
     margin-bottom:30px;
   }
+  .image-contact{
+    margin-left:-10px;
+  }
+
   .contact-info{
    margin:30px;
   }
@@ -29,6 +33,9 @@
     margin-top:-30px;
     margin-bottom:10px;
     text-decoration:none;
+  }
+  .para-foot1{
+    margin-bottom:15px;
   }
   .no-under-line{
     text-decoration:none;
@@ -50,8 +57,10 @@
     .para-contact{
       margin:30px !important;
      }
+     
+     }
     
-    }
+    
    
   
   
